@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72B46EF3-D409-45F3-B493-264D493F9051}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FinanceManager.Console</RootNamespace>
+    <AssemblyName>FinanceManager.Console</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BTCAnalysis.Forms.MainForm\BTCAnalysis.Forms.csproj">
+      <Project>{80080577-80e1-484f-8e6b-5226ed7d3152}</Project>
+      <Name>BTCAnalysis.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BTCAnalysis\BTCAnalysis.csproj">
+      <Project>{7883f26a-6aa3-4b4d-a689-c1f214c9ae74}</Project>
+      <Name>BTCAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChunkGenerator\ChunkGenerator.csproj">
+      <Project>{2a79b151-cf14-44fa-b010-ba54fef90fc4}</Project>
+      <Name>ChunkGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FinanceManager.Forms\FinanceManager.Forms.csproj">
+      <Project>{cc01f875-dbef-4685-ba1f-36745c5d0e59}</Project>
+      <Name>FinanceManager.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WaitLib\WaitLib.csproj">
+      <Project>{e8ba1362-69be-487d-973d-c5a94bbe3776}</Project>
+      <Name>WaitLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
