@@ -1,0 +1,11 @@
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\obj\Debug\FinanceManager.csprojAssemblyReference.cache
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\obj\Debug\FinanceManager.csproj.CoreCompileInputs.cache
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\bin\Debug\FinanceManager.exe.config
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\bin\Debug\FinanceManager.exe
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\bin\Debug\FinanceManager.pdb
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\bin\Debug\FinanceManager.Forms.dll
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\bin\Debug\FinanceManager.Forms.pdb
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\bin\Debug\FinanceManager.Forms.dll.config
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\obj\Debug\FinanceManager.csproj.CopyComplete
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\obj\Debug\FinanceManager.exe
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager\obj\Debug\FinanceManager.pdb

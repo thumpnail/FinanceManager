@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FinanceManager.Forms {
-    static class Program {
+    public static class MainForm {
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
         [STAThread]
-        static void Main() {
+        public static void StartForm() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
