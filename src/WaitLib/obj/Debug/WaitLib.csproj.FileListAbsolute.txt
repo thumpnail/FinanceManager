@@ -15,6 +15,7 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\bin\Debug\Flurl.Http.x
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\bin\Debug\Newtonsoft.Json.pdb
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\bin\Debug\Newtonsoft.Json.xml
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\bin\Debug\System.ValueTuple.xml
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\obj\Debug\WaitLib.csprojAssemblyReference.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\obj\Debug\WaitLib.csproj.CoreCompileInputs.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\obj\Debug\WaitLib.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\WaitLib\obj\Debug\WaitLib.dll

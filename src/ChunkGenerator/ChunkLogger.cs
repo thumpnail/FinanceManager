@@ -13,5 +13,11 @@ namespace ChunkGenerator {
             LOGITwriter.WriteLine(msg);
             Console.WriteLine(msg);
         }
+        public static void LOGIT(string msg, string msg_logstack) {
+            msg = DateTime.Now.ToString("hh-mm-ss-fff") + " | " + msg;
+            LOGITwriter.WriteLine(msg);
+            LOGITwriter.WriteLine(msg_logstack);
+            Console.WriteLine(msg);
+        }
     }
 }

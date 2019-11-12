@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace FinanceManager.Forms {
@@ -13,5 +14,10 @@ namespace FinanceManager.Forms {
         public Form1() {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e) {
+            Thread thread = new Thread(new ThreadStart(Additional.AdditionalForms.StartDiagramForm));
+            thread.Start();
+        }
     }
-}
+}//was ne scheiße, eyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy

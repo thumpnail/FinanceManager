@@ -41,3 +41,7 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.pdb
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.Additional.dll
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.Additional.pdb
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.Additional.dll.config
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.Form1.resources

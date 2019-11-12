@@ -30,3 +30,5 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\Chunk
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.pdb
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\bin\Debug\SevenZip.dll
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\bin\Debug\SevenZip.xml

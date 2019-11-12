@@ -38,6 +38,8 @@ namespace ChunkGenerator {
         public static void FileEncrypt(string inputFile, string outputFile, string password) {
             //http://stackoverflow.com/questions/27645527/aes-encryption-on-large-files
 
+            ChunkLogger.LOGIT("---FileEncrypt()--- : Inputfile: " + inputFile + " | Outputfile: " + outputFile + " | Password: " + password);
+
             //generate random salt
             byte[] salt = GenerateRandomSalt();
 
@@ -96,6 +98,9 @@ namespace ChunkGenerator {
         /// <param name="outputFile"></param>
         /// <param name="password"></param>
         public static void FileDecrypt(string inputFile, string outputFile, string password) {
+
+            ChunkLogger.LOGIT("---FileEncrypt()--- : Inputfile: " + inputFile + " | Outputfile: " + outputFile + " | Password: " + password);
+
             byte[] passwordBytes = System.Text.Encoding.UTF8.GetBytes(password);
             byte[] salt = new byte[32];
 

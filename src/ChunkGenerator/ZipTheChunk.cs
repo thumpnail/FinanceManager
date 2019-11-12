@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using ICSharpCode.SharpZipLib;
 using ICSharpCode.SharpZipLib.Core;
 using ICSharpCode.SharpZipLib.Zip;
 
@@ -8,6 +9,8 @@ using ICSharpCode.SharpZipLib.Zip;
 namespace ChunkGenerator {
     public static class ZipToChunk {
         public static void CreateSample(string outPathname, string password, string folderName, int lvl) {
+
+            ChunkLogger.LOGIT("---CreateSample()--- : outPathname: " + outPathname + " | folderName: " + folderName + " | password: " + password + " | LVL: " + lvl);
 
             FileStream fsOut = File.Create(outPathname);
             ZipOutputStream zipStream = new ZipOutputStream(fsOut);
@@ -26,11 +29,55 @@ namespace ChunkGenerator {
             zipStream.IsStreamOwner = true; // Makes the Close also Close the underlying stream
             zipStream.Close();
         }
+        
 
-        // Recurses down the folder structure
-        //
-        private static void CompressFolder(string path, ZipOutputStream zipStream, int folderOffset) {
+    public static void ExtractZipFile(string archiveFilenameIn, string password, string outFolder) {
 
+            ChunkLogger.LOGIT("---ExtractZipFile()--- : outFolder: " + archiveFilenameIn + " | outFolder: " + outFolder + " | Password: " + password);
+
+            ZipFile zf = null;
+        try {
+                FileStream fs = File.OpenRead(archiveFilenameIn);
+                zf = new ZipFile(archiveFilenameIn);
+            if (!String.IsNullOrEmpty(password)) {
+                zf.Password = password;     // AES encrypted entries are handled automatically
+            }
+            foreach (ZipEntry zipEntry in zf) {
+                if (!zipEntry.IsFile) {
+                    continue;           // Ignore directories
+                }
+                String entryFileName = zipEntry.Name;
+                // to remove the folder from the entry:- entryFileName = Path.GetFileName(entryFileName);
+                // Optionally match entrynames against a selection list here to skip as desired.
+                // The unpacked length is available in the zipEntry.Size property.
+
+                byte[] buffer = new byte[4096];     // 4K is optimum
+                Stream zipStream = zf.GetInputStream(zipEntry);
+
+                // Manipulate the output filename here as desired.
+                String fullZipToPath = Path.Combine(outFolder, entryFileName);
+                string directoryName = Path.GetDirectoryName(fullZipToPath);
+                if (directoryName.Length > 0)
+                    Directory.CreateDirectory(directoryName);
+
+                // Unzip file in buffered chunks. This is just as fast as unpacking to a buffer the full size
+                // of the file, but does not waste memory.
+                // The "using" will close the stream even if an exception occurs.
+                using (FileStream streamWriter = File.Create(fullZipToPath)) {
+                    StreamUtils.Copy(zipStream, streamWriter, buffer);
+                }
+            }
+        } finally {
+            if (zf != null) {
+                zf.IsStreamOwner = true; // Makes close also shut the underlying stream
+                zf.Close(); // Ensure we release resources
+            }
+        }
+    }
+    // Recurses down the folder structure
+    //
+    private static void CompressFolder(string path, ZipOutputStream zipStream, int folderOffset) {
+            ChunkLogger.LOGIT("---CompressFolder()--- : Path: " + path + " | zipStream: " + zipStream + " | folderoffset: " + folderOffset);
             string[] files = Directory.GetFiles(path);
 
             foreach (string filename in files) {
@@ -62,6 +109,7 @@ namespace ChunkGenerator {
                     StreamUtils.Copy(streamReader, zipStream, buffer);
                 }
                 zipStream.CloseEntry();
+                zipStream.Close();
             }
             string[] folders = Directory.GetDirectories(path);
             foreach (string folder in folders) {

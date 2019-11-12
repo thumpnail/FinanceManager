@@ -1,0 +1,9 @@
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\bin\Debug\FinanceManager.Forms.Additional.dll.config
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\bin\Debug\FinanceManager.Forms.Additional.dll
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\bin\Debug\FinanceManager.Forms.Additional.pdb
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\obj\Debug\FinanceManager.Forms.Additional.csprojAssemblyReference.cache
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\obj\Debug\FinanceManager.Forms.Additional.Properties.Resources.resources
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\obj\Debug\FinanceManager.Forms.Additional.csproj.GenerateResource.cache
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\obj\Debug\FinanceManager.Forms.Additional.csproj.CoreCompileInputs.cache
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\obj\Debug\FinanceManager.Forms.Additional.dll
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms.Additional\obj\Debug\FinanceManager.Forms.Additional.pdb
