@@ -33,7 +33,15 @@ namespace FinanceManager {
                     Console.WriteLine(help[i]);
                 }
             }
-            Console.ReadKey();
+            Forms.FinanceManager.accounts.Add(new _Account(1, "Main"));
+            Forms.FinanceManager.accounts.Add(new _Account(2, "Second"));
+
+            Forms.FinanceManager.accounts[0].addTransfare("Handy Laden", 15.00, DateTime.Now);
+            Forms.FinanceManager.accounts[0].addTransfare("Handy Kaufen", 390.00, DateTime.Now);
+
+            Forms.FinanceManager.accounts[1].addTransfare("Farhstunden", 90.00, DateTime.Now);
+
+            forFinanceManager();
         }
 
         public static void forFinanceManager() {
