@@ -104,16 +104,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="addAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="addAccount.Designer.cs">
+      <DependentUpon>addAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addTransfare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addTransfare.Designer.cs">
+      <DependentUpon>addTransfare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SingleAccountView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SingleAccountView.Designer.cs">
+      <DependentUpon>SingleAccountView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinanceManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinanceManager.Designer.cs">
+      <DependentUpon>FinanceManager.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="_Account.cs" />
+    <Compile Include="_Transfare.cs" />
+    <EmbeddedResource Include="addAccount.resx">
+      <DependentUpon>addAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addTransfare.resx">
+      <DependentUpon>addTransfare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinanceManager.resx">
+      <DependentUpon>FinanceManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,12 +163,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FinanceManager.Forms.Additional\FinanceManager.Forms.Additional.csproj">
-      <Project>{fd6e9bcc-9739-4424-8128-57c2c748316e}</Project>
-      <Name>FinanceManager.Forms.Additional</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

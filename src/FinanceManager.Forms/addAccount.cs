@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BTCAnalysis.Forms.MainForm {
-    public partial class Table : Form {
-        public Table() {
+namespace FinanceManager.Forms {
+    public partial class addAccount : Form {
+        public addAccount() {
             InitializeComponent();
         }
     }
