@@ -26,7 +26,6 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\bin\Debug\Newto
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\bin\Debug\System.ValueTuple.xml
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\bin\Debug\fr\Common.resources.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.csprojAssemblyReference.cache
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.csproj.CoreCompileInputs.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\ChunkGenerator\obj\Debug\ChunkGenerator.pdb

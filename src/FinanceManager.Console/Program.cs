@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Threading;
 using FinanceManager.Forms;
 using ChunkGenerator;
@@ -34,16 +35,19 @@ namespace FinanceManager {
                 }
             }
             Forms.FinanceManager.accounts.Add(new _Account(1, "Main"));
-            Forms.FinanceManager.accounts.Add(new _Account(2, "Second"));
+            Forms.FinanceManager.accounts.Add(new _Account(2, "Fahrschule"));
 
-            Forms.FinanceManager.accounts[0].addTransfare("Handy Laden", 15.00, DateTime.Now);
-            Forms.FinanceManager.accounts[0].addTransfare("Handy Kaufen", 390.00, DateTime.Now);
+            Forms.FinanceManager.accounts[0].addTransfare("Handy Laden", -15.00, DateTime.Now, Forms.FinanceManager.accounts[0]);
+            Forms.FinanceManager.accounts[0].addTransfare("Handy Kaufen", -390.00, DateTime.Now, Forms.FinanceManager.accounts[0]);
 
-            Forms.FinanceManager.accounts[1].addTransfare("Farhstunden", 90.00, DateTime.Now);
+            Forms.FinanceManager.accounts[1].addTransfare("Farhstunden", -90.00, DateTime.Now, Forms.FinanceManager.accounts[1]);
+
+            Forms.FinanceManager.accounts[0].Print();
+            Forms.FinanceManager.accounts[1].Print();
 
             forFinanceManager();
         }
-
+        [STAThread]
         public static void forFinanceManager() {
             Console.WriteLine("Hallo World");
             Thread MainFormThread = new Thread(new ThreadStart(MainForm.StartForm));

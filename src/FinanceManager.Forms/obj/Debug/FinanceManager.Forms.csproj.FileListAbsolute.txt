@@ -37,14 +37,9 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.csprojAssemblyReference.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.Properties.Resources.resources
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.csproj.GenerateResource.cache
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.csproj.CoreCompileInputs.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.pdb
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.Additional.dll
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.Additional.pdb
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.Additional.dll.config
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.Form1.resources
 A:\repos\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.dll.config
 A:\repos\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.dll
 A:\repos\FinanceManager\src\FinanceManager.Forms\bin\Debug\FinanceManager.Forms.pdb
@@ -90,3 +85,6 @@ A:\repos\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.
 A:\repos\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.FinanceManager.resources
 A:\repos\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.addAccount.resources
 A:\repos\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.addTransfare.resources
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.addTransfare.resources
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.FinanceManager.resources
+D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Forms\obj\Debug\FinanceManager.Forms.addAccount.resources

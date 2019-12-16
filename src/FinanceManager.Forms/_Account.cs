@@ -14,12 +14,22 @@ namespace FinanceManager.Forms {
             this.name = name;
             this.id = id;
         }
-        public void addTransfare(string description, double amount, DateTime done) {
-            for (int i = 0; i < transfsres.Count; i++) {
-                if (!transfsres[i].id.Equals(i+1)) {
-                    transfsres.Add(new _Transfare(i+1, description, amount, done));
-                }
-            }            
+        public void addTransfare(string description, double amount, DateTime done, _Account ownerAccount) {
+            if (!transfsres.Count.Equals(0)) {
+                //int highCount = 0;
+                transfsres.Add(new _Transfare(transfsres.Count + 1, description, amount, done, ownerAccount));
+            } else {
+                transfsres.Add(new _Transfare(1, description, amount, done, ownerAccount));
+            }
+                        
+        }
+        public void Print() {
+            Console.WriteLine("ID: " + id);
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("transfares: " + transfsres.Count);
+            foreach (var item in transfsres) {
+                item.Print();
+            }
         }
     }
 }

@@ -36,7 +36,6 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\bin
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.csproj.App.config
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.MainForm.Properties.Resources.resources
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.csproj.GenerateResource.cache
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.csproj.CoreCompileInputs.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.MainForm.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis.Forms.MainForm\obj\Debug\BTCAnalysis.Forms.MainForm.pdb

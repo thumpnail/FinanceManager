@@ -35,7 +35,6 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\bin\Debug\System.N
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\bin\Debug\System.ValueTuple.xml
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\obj\Debug\BTCAnalysis.csproj.App.config
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\obj\Debug\BTCAnalysis.csprojAssemblyReference.cache
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\obj\Debug\BTCAnalysis.csproj.CoreCompileInputs.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\obj\Debug\BTCAnalysis.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\obj\Debug\BTCAnalysis.dll
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\BTCAnalysis\obj\Debug\BTCAnalysis.pdb

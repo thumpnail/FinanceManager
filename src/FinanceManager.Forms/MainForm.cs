@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace FinanceManager.Forms {
     public static class MainForm {
+        public static FinanceManager fm;
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
@@ -13,7 +14,8 @@ namespace FinanceManager.Forms {
         public static void StartForm() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FinanceManager());
+            fm = new FinanceManager();
+            Application.Run(fm);
         }
     }
 }

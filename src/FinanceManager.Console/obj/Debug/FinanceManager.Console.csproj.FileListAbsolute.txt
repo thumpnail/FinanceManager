@@ -26,13 +26,9 @@ D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\bin\Deb
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\bin\Debug\ICSharpCode.SharpZipLib.pdb
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\bin\Debug\ICSharpCode.SharpZipLib.xml
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\obj\Debug\FinanceManager.Console.csprojAssemblyReference.cache
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\obj\Debug\FinanceManager.Console.csproj.CoreCompileInputs.cache
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\obj\Debug\FinanceManager.Console.csproj.CopyComplete
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\obj\Debug\FinanceManager.Console.exe
 D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\obj\Debug\FinanceManager.Console.pdb
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\bin\Debug\FinanceManager.Forms.Additional.dll
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\bin\Debug\FinanceManager.Forms.Additional.pdb
-D:\Moritz2000\Documents\GitHub\FinanceManager\src\FinanceManager.Console\bin\Debug\FinanceManager.Forms.Additional.dll.config
 A:\repos\FinanceManager\src\FinanceManager.Console\bin\Debug\FinanceManager.Console.exe.config
 A:\repos\FinanceManager\src\FinanceManager.Console\bin\Debug\FinanceManager.Console.exe
 A:\repos\FinanceManager\src\FinanceManager.Console\bin\Debug\FinanceManager.Console.pdb
